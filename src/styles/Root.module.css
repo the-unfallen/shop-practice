@@ -218,10 +218,17 @@
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .navGroup {
-        display: grid;
-        grid-template-columns: 40% 60%;
+        /* display: grid;
+        grid-template-columns: 40% 60%; */
         padding-left: 12px;
         padding-right: 12px;
         border-bottom: 0px;
+        gap: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navGroupButtons {
+        width: 50%;
     }
 }

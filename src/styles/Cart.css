@@ -49,3 +49,18 @@
 
 }
 
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cartContainer {
+        width: 100%;
+        justify-content: space-around;
+        gap: 0px;
+        /* margin-right: 24px; */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cartContainer {
+        width: 50%;
+    }
+}
